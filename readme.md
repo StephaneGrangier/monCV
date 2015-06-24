@@ -3,7 +3,7 @@
 ## Environnement de développement "Yeoman"
 Pour commencer nous avons téléchargé et installé les outils qui constituent notre environnment de développement (constitue une base pour la strucure de travail)
 
-* Node 
+* **Node** 
 Nous avons installé le serveur Node qui offre un environnement côté serveur qui nous permet aussi d'utiliser le langage JavaScript. Ceci sera la base pour l'environnement "Yeoman".
 
 **Yeoman** comprend les outils suivants:
