@@ -15,8 +15,6 @@
     <!-- endbuild -->	
     <!-- build:css(.tmp) styles/main.css -->
     
-	
-	
 		<link rel="stylesheet" href="styles/styleCV.css" />
     <!-- endbuild -->
   </head>
@@ -24,18 +22,16 @@
    	<!-- comment (debug) -->
 		
 		<div class="container">
-		
-			<nav class="navbar navbar-default">
-					<div class="page-header">
-						<h1>Stéphane Grangier <small>CV</small></h1>
-						<ul class="nav nav-pills">
-							<li role="presentation"><a href="#coordonnees">Coordonnées</a></li>
-							<li role="presentation"><a href="#formation">Formation</a></li>
-							<li role="presentation"><a href="#experience">Expérience prof</a></li>
-							<li role="presentation"><a href="#connaissances">Connaissances techn</a></li>
-						</ul>
-					</div>
-			</nav>
+			<div class="jumbotron page-header">
+				<img src=images/portrait_sg1.jpg alt=me class="img-circle pull-right">
+				<h1>Stéphane Grangier <small>CV</small></h1>
+				<ul class="nav nav-pills">
+					<li role="presentation"><a href="#coordonnees">Coordonnées</a></li>
+					<li role="presentation"><a href="#formation">Formation</a></li>
+					<li role="presentation"><a href="#experience">Expérience prof</a></li>
+					<li role="presentation"><a href="#connaissances">Connaissances techn</a></li>
+				</ul>
+			</div>
 			
 			<div class="panel panel-primary" style="margin-top:20px">
 				<div class="panel-heading">				
@@ -51,10 +47,10 @@
 					<p>Mail: <a href="mailto:steph.grangier@gmail.com">steph.grangier@gmail.com</a></p>
 				</div>
 			</div>
-		
-		
-		<!-- essai cadres -->
 			
+		
+		
+		<!-- Elements CV -->
 			<div class="row">
 				<div id="formation" class="col-md-12"><h3>Formation</h3></div>
 			</div>
@@ -70,7 +66,7 @@
 				<div class="col-md-2">2000 - 2005:</div>
 				<div class="col-md-10">Médiamaticien CFC</div>
 			</div>
-			
+
 			<div class="row">
 				<div id="experience" class="col-md-12"><h3>Expérience professionnelle</h3></div>
 			</div>
@@ -97,8 +93,8 @@
 			
 			<div id="connaissances"><h3>Connaissances techniques</h3></div>
 			<div class="row">
+			
 				<div class="col-md-2">
-				
 					<div>SQL et PL/SQL</div>
 					<div class="progress">
 						<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
@@ -106,34 +102,40 @@
 						</div>
 					</div>
 				</div>
-			</div>
+				
+				<div class="col-md-2">
+					<div>Java</div>
+			        <div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							60%
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-2">
+					<div>Modélisation</div>
+			        <div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							80%
+						</div>
+					</div>
+				</div>
 			
-			<div>Java</div>
-			<div class="progress">
-				<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-				60%
+				<div class="col-md-2">
+					<div>Système</div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+							70%
+						</div>
+					</div>
 				</div>
 			</div>
-			
-			<div>Modélisation</div>
-			<div class="progress">
-				<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-				80%
-				</div>
-			</div>
-			
-			<div>Système</div>
-			<div class="progress">
-				<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-				70%
-				</div>
-			</div>
-			
-			
 			
 			<div style="margin-top:60px; margin-bottom:40px; background:green;">
 				<p class="bg-success footer-remerciement">Merci d'avoir consulté cette page, pour me contacter: <a href="mailto:steph.grangier@gmail.com">steph.grangier@gmail.com</a></p>
 			</div>
+			
+		</div>
 			
 			 <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
